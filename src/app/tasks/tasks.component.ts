@@ -7,6 +7,6 @@ import { TasksListComponent } from './tasks-list/tasks-list.component';
   selector: 'app-tasks',
   standalone: true,
   templateUrl: './tasks.component.html',
-  imports: [NewTaskComponent, TasksListComponent],
+  imports: [NewTaskComponent, TasksListComponent]
 })
 export class TasksComponent {}
